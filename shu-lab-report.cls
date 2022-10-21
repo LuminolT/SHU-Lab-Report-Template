@@ -1,10 +1,10 @@
-% Author: Dongsheng Deng
-% Homepage: https://ddswhu.me/
-% Email: elegantlatex2e@gmail.com
-% Lastest Version: https://github.com/ElegantLaTeX/ElegantPaper
+% Author: Luminolt Chen
+% Homepage: https://luminolt.cn/
+% Email: luminol.chen@gmail.com
+% Lastest Version: https://github.com/LuminolT/SHU-OS-Lab-Report-Template
 
 % --- Class structure: identification part
-\ProvidesClass{elegantpaper}[2022/04/09 v0.10 ElegantLaTeX Paper class]
+\ProvidesClass{shu-lab-report}[2022/10/21 v0.1 SHU-OS-Lab-Report-Template]
 \NeedsTeXFormat{LaTeX2e} 
 
 %%%
@@ -358,7 +358,7 @@
 	keywordstyle=\color{winered},
 	frame=tlbr,framesep=4pt,framerule=0pt,
 	commentstyle=\color{commentcolor},
-	emph={elegantpaper,fontenc,fontspec,xeCJK,FiraMono,xunicode,newtxmath,figure,fig,image,img,table,itemize,enumerate,newtxtext,newtxtt,ctex,microtype,description,times,newtx,booktabs,tabular,PDFLaTeX,XeLaTeX,type1cm,BibTeX,cite,gbt7714,lang},
+	emph={shu-lab-report,fontenc,fontspec,xeCJK,FiraMono,xunicode,newtxmath,figure,fig,image,img,table,itemize,enumerate,newtxtext,newtxtt,ctex,microtype,description,times,newtx,booktabs,tabular,PDFLaTeX,XeLaTeX,type1cm,BibTeX,cite,gbt7714,lang},
 	emphstyle={\color{frenchplum}},
 	morekeywords={DeclareSymbolFont,SetSymbolFont,toprule,midrule,bottomrule,institute,version,includegraphics,setmainfont,setsansfont,setmonofont ,setCJKmainfont,setCJKsansfont,setCJKmonofont,RequirePackage,figref,tabref,email,maketitle,keywords,zhdate,zhtoday},
 	tabsize=2,
@@ -369,3 +369,11 @@
 
 % restore the tt default family to lmodern tt family
 \renewcommand\ttdefault{lmtt}
+
+
+% Let section number be CNJ charactor.
+\usepackage{zhnumber} % change section number to chinese
+\renewcommand\thesection{\zhnum{section}}
+\renewcommand\thesubsection{\arabic{subsection}}
+
+\usepackage{tabularx}

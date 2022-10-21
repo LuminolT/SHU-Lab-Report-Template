@@ -1,0 +1,116 @@
+%!TEX program = xelatex
+% 完整编译: xelatex -> biber/bibtex -> xelatex -> xelatex
+\documentclass[lang=cn,a4paper,chinesefont=founder]{shu-lab-report}
+
+
+% 本文档命令
+\usepackage{array}
+\newcommand{\ccr}[1]{\makecell{{\color{#1}\rule{1cm}{1cm}}}}
+
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% The Cover Page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\thispagestyle{empty}
+
+~\\
+
+\vspace{3cm}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=10cm]{image/shulogo.png}
+\end{figure}
+
+\centerline{\large{\textbf{SHANGHAI  UNIVERSITY}}}
+
+\vspace{8mm}
+
+\centerline{\kaishu\Huge{\textbf{操作系统（一）实验报告}}}
+
+\vspace{8mm}
+
+
+\vspace{16mm}
+
+\begin{center}
+\renewcommand\arraystretch{1.5}
+\begin{tabular}{r c}
+    \makebox[8em][s]{\LARGE{组号}}    & \LARGE{第x组}\\         \cmidrule(l){2-2} 
+    \makebox[8em][s]{\LARGE{学号姓名}} & \LARGE{20122012张三}\\  \cmidrule(l){2-2} 
+    \makebox[8em][s]{\LARGE{实验序号}} & \LARGE{x}\\            \cmidrule(l){2-2} 
+    \makebox[8em][s]{\LARGE{日期}}    & \LARGE{2022年10月21日}\\ \cmidrule(l){2-2}
+\end{tabular}
+\end{center}
+
+\vspace{8mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% The Content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\setcounter{page}{1}
+
+\section{实验目的与要求}
+
+\section{实验环境}
+
+\section{实验内容及其设计与实现}
+
+\subsection{实验内容1}
+
+\subsubsection{子项说明}
+
+\subsection{实验内容2}
+
+\textbf{说明}：叙述各个实验任务的过程和结果，着重说明各个实验所反映的
+操作系统设计原理，加以评述。
+
+\section{收获与体会}
+
+\textbf{说明}：撰写完成该实验后的收获与体会。
+
+\section{模板测试部分（实际编写时请删除）}
+
+以下为样例代码：
+
+\begin{lstlisting}[language=C]
+#include <stdio.h>
+int main() {
+    printf("Hello World!");
+    return 0;
+}
+\end{lstlisting}
+
+
+如\figref{fig:example}所示，为上海大学校徽。
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.5\textwidth]{image/shulogo.png}
+    \caption{上海大学校徽}
+    \label{fig:example}
+\end{figure}
+
+如\tabref{tab:example}所示，为测试表。
+
+\begin{table}[!htbp]
+    \caption{测试表}
+    \label{tab:example}
+    \centering
+    \begin{tabular}{cc}
+        \toprule
+            & value\\
+        \midrule
+        1   & 1     \\
+        2   & 2     \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\end{document}

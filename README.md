@@ -1,24 +1,20 @@
-<!-- Author: Dongsheng Deng -->
-<!-- Email: ddswhu@outlook.com -->
+<!-- Author: Luminol Chen -->
+<!-- Email: luminol.chen@gmail.com -->
 
-# ElegantPaper
+# SHU-OS-Lab-Report-Template
 
-[Homepage](https://elegantlatex.org/) | [Github](https://github.com/ElegantLaTeX/ElegantPaper) | [CTAN](https://ctan.org/pkg/elegantpaper) | [Download](https://github.com/ElegantLaTeX/ElegantPaper/releases) | [Wiki](https://github.com/ElegantLaTeX/ElegantPaper/wiki) | [Weibo](https://weibo.com/elegantlatex)
+## 说明
 
-![License](https://img.shields.io/ctan/l/elegantpaper.svg)
-![CTAN Version](https://img.shields.io/ctan/v/elegantpaper.svg)
-![Github Version](https://img.shields.io/github/release/ElegantLaTeX/ElegantPaper.svg)
-![Repo Size](https://img.shields.io/github/repo-size/ElegantLaTeX/ElegantPaper.svg)
+本项目为上海大学操作系统课程实验报告LaTex模板，基于课程所给文档格式进行了排版。
 
+本模板参考自作者之前的[数据结构研讨报告LaTex模板](https://github.com/LuminolT/SHU-DS-LaTex-Template)。
+由于该项目基于毕设模板，设置文件较为复杂，为精简考虑，此处改用基础模板为[Elegant Paper](https://github.com/ElegantLaTeX/ElegantPaper)项目。
 
+## 注意事项
 
-ElegantPaper is designed for writing a working paper, especially for economics students. This template is based on the standard LaTeX article class. The goal of this template is to make the writing process easier and more comfortable. You can get rid of all the worries about the format. Just enjoy it! If you have any questions, suggestions or bug reports, you can create issues or email us at elegantlatex2e@gmail.com.
+本模板使用方正开源字库（方正书宋、方正黑体、方正楷体、方正仿宋），可以从[方正字体官网](http://www.foundertype.com/)获得。也可以从`shu-lab-report.tex`中的`documentclass`选项删去`chinesefont=founder`，此时默认使用系统字库。
 
-此模板基于 LaTeX 的 article 类，专为工作论文写作而设计。设计这个模板的初衷是让作者不用关心工作论文的格式，专心写作，从而有更加舒适，简便的写作体验。如果你有其他问题、建议或者报告 bug，可以提交 issues 或者给我们发邮件：elegantlatex2e@gmail.com。用户 QQ 交流群（Q 群：692108391），欢迎加入。
-
-The official user guide is [here](https://github.com/ElegantLaTeX/ElegantPaper/releases), or you can refer to the [wiki](https://github.com/ElegantLaTeX/ElegantPaper/wiki).
-
-模板使用说明请参见[模板文档](https://github.com/ElegantLaTeX/ElegantPaper/releases)，或者 [wiki](https://github.com/ElegantLaTeX/ElegantPaper/wiki)。
+模板使用说明请参见[Elegant Paper 模板文档](https://github.com/ElegantLaTeX/ElegantPaper/releases)，或者 [Elegant Paper Wiki](https://github.com/ElegantLaTeX/ElegantPaper/wiki)。
 
 ## License
 
