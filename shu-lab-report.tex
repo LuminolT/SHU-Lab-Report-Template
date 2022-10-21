@@ -6,6 +6,8 @@
 % 本文档命令
 \usepackage{array}
 \newcommand{\ccr}[1]{\makecell{{\color{#1}\rule{1cm}{1cm}}}}
+\renewcommand{\lstlistingname}{代码}
+
 
 
 
@@ -77,9 +79,9 @@
 
 \section{模板测试部分（实际编写时请删除）}
 
-以下为样例代码：
+如\coderef{code:example}所示，为示例代码。
 
-\begin{lstlisting}[language=C]
+\begin{lstlisting}[language=C, caption={示例代码}, label={code:example}]
 #include <stdio.h>
 int main() {
     printf("Hello World!");

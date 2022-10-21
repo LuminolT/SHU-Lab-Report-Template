@@ -229,6 +229,8 @@
   \newcommand{\keywords}[1]{\vskip2ex\par\noindent\normalfont{\bfseries 关键词: } #1}
   \newcommand\figref[1]{{\bfseries 图~\ref{#1}}}
   \newcommand\tabref[1]{{\bfseries 表~\ref{#1}}}
+  %% Add Code Reference
+  \newcommand\coderef[1]{{\bfseries 代码~\ref{#1}}}
   \renewcommand{\appendixtocname}{附录}
   \renewcommand{\appendixpagename}{附录}}{\relax}
 
@@ -349,21 +351,29 @@
     \ttfamily
     \lst@ifdisplaystyle\footnotesize\fi
 }
-\lstset{basicstyle=\scriptsize\ttfamily,style=estyle}
 
-\lstset{language=[LaTeX]TeX,
-	texcsstyle=*\color{winered},
-	numbers=none,
-	breaklines=true,
-	keywordstyle=\color{winered},
-	frame=tlbr,framesep=4pt,framerule=0pt,
-	commentstyle=\color{commentcolor},
-	emph={shu-lab-report,fontenc,fontspec,xeCJK,FiraMono,xunicode,newtxmath,figure,fig,image,img,table,itemize,enumerate,newtxtext,newtxtt,ctex,microtype,description,times,newtx,booktabs,tabular,PDFLaTeX,XeLaTeX,type1cm,BibTeX,cite,gbt7714,lang},
-	emphstyle={\color{frenchplum}},
-	morekeywords={DeclareSymbolFont,SetSymbolFont,toprule,midrule,bottomrule,institute,version,includegraphics,setmainfont,setsansfont,setmonofont ,setCJKmainfont,setCJKsansfont,setCJKmonofont,RequirePackage,figref,tabref,email,maketitle,keywords,zhdate,zhtoday},
-	tabsize=2,
-	backgroundcolor=\color{lightgrey}
-}
+%% Here edited
+\newfontfamily\courier{Courier New}
+\lstset{linewidth=1.1\textwidth,
+        numbers=left, %设置行号位置 
+        basicstyle=\small\courier,
+        numberstyle=\footnotesize\courier, %设置行号大小  
+        keywordstyle=\color{blue}\courier, %设置关键字颜色  
+        %identifierstyle=\bf，
+        commentstyle=\it\color[cmyk]{1,0,1,0}\courier, %设置注释颜色 
+        stringstyle=\it\color[RGB]{128,0,0}\courier,
+        %framexleftmargin=10mm,
+        frame=lines, %设置边框格式  
+        backgroundcolor=\color[RGB]{245,245,244},
+        %escapeinside=``, %逃逸字符(1左面的键)，用于显示中文  
+        breaklines, %自动折行  
+        extendedchars=false, %解决代码跨页时，章节标题，页眉等汉字不显示的问题  
+        xleftmargin=2em,xrightmargin=5em, aboveskip=1em, %设置边距  
+        tabsize=4, %设置tab空格数  
+        showstringspaces=false, %不显示字符串中的空格
+        showspaces=false, %不显示空格  
+        basicstyle=\small\courier,
+}  
 
 
 
@@ -377,3 +387,4 @@
 \renewcommand\thesubsection{\arabic{subsection}}
 
 \usepackage{tabularx}
+
