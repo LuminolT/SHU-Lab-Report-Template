@@ -12,9 +12,17 @@
 
 ## 注意事项
 
-本模板使用方正开源字库（方正书宋、方正黑体、方正楷体、方正仿宋），可以从[方正字体官网](http://www.foundertype.com/)获得。也可以从`shu-lab-report.tex`中的`documentclass`选项删去`chinesefont=founder`，此时默认使用系统字库。
+本模板使用方正开源字库（方正书宋、方正黑体、方正楷体、方正仿宋），可以从[方正字体官网](http://www.foundertype.com/)获得。
+
+也可以从`shu-lab-report.tex`中的`documentclass`选项删去`chinesefont=founder`，此时默认使用系统字库。
 
 模板使用说明请参见[Elegant Paper 模板文档](https://github.com/ElegantLaTeX/ElegantPaper/releases)，或者 [Elegant Paper Wiki](https://github.com/ElegantLaTeX/ElegantPaper/wiki)。
+
+欢迎提Issue或PR。
+
+## Overleaf
+
+本模板已在[Overleaf](https://www.overleaf.com/project)上测试使用，正在提交到Overleaf Gallery，等待审核中。
 
 ## License
 
