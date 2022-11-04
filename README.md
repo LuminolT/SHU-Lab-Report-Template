@@ -22,7 +22,7 @@
 
 ## Overleaf
 
-本模板已在[Overleaf](https://www.overleaf.com/project)上测试使用，正在提交到Overleaf Gallery，等待审核中。
+本模板已在[Overleaf](https://www.overleaf.com/latex/templates/shu-os-lab-report-template/mwswxyksvsqd)上测试，可直接使用。
 
 ## License
 
