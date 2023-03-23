@@ -1,11 +1,11 @@
 <!-- Author: Luminol Chen -->
 <!-- Email: luminol.chen@gmail.com -->
 
-# SHU-OS-Lab-Report-Template
+# SHU-Lab-Report-Template
 
 ## 说明
 
-本项目为上海大学操作系统课程实验报告LaTex模板，基于课程所给文档格式进行了排版。
+本项目为上海大学课程实验报告LaTex模板，适用于多种课程（目前发现包括数据结构、操作系统、Python计算、计算机体系结构）。
 
 本模板参考自作者之前的[数据结构研讨报告LaTex模板](https://github.com/LuminolT/SHU-DS-LaTex-Template)。
 由于该项目基于毕设模板，设置文件较为复杂，为精简考虑，此处改用基础模板为[Elegant Paper](https://github.com/ElegantLaTeX/ElegantPaper)项目。
@@ -22,7 +22,7 @@
 
 ## Overleaf
 
-本模板已在[Overleaf](https://www.overleaf.com/latex/templates/shu-os-lab-report-template/mwswxyksvsqd)上测试，可直接使用。
+在 [Overleaf](https://www.overleaf.com/latex/templates/shu-os-lab-report-template/mwswxyksvsqd) 可找到本仓库前身的操作系统模板，不保持同步更新。
 
 ## License
 
